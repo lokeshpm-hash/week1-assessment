@@ -58,7 +58,7 @@ pip install -r requirements.txt
 
 ## 4. Running the Project
 
-Open the Jupyter notebook:
+Start Jupyter Notebook:
 
 ```bash
 jupyter notebook
@@ -75,10 +75,10 @@ src/Week1_Employee_Analysis.py
 ## 5. Key Findings
 
 1. The dataset contains 8 employees across 4 departments.
-2. Two missing salary values were identified and replaced with the median salary of 56,000.
+2. Two missing salary values were replaced with the median salary of 56,000.
 3. IT has the highest average salary at approximately 63,666.67.
 4. Finance has the lowest average salary at 48,000.
-5. The visualisations show salary differences across departments and employees; age alone does not explain salary differences.
+5. Visualisations show salary differences across departments and employees; age alone does not explain salary differences.
 
 ## 6. Tools and Libraries
 
@@ -92,3 +92,7 @@ src/Week1_Employee_Analysis.py
 ## 7. Performance Measurement
 
 The `%timeit` command was used to measure the execution time of department-wise salary analysis. The observed average was approximately 331 microseconds per loop.
+
+## 8. Repository Information
+
+This project was created as part of the Week 1 Python assessment. The main branch contains the initial project setup, and the feature branch contains the completed analysis.
